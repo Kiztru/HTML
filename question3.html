@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 3 - Musab Alhajeri</title>
+</head>
+
+<body>
+    
+    <!--Header for Page title-->
+    <h1>Feedback about Campus Visit:</h1>
+
+    <!--form settings, using post because it contains senstive info about the student, the action attribute will send the feedback to the given URL-->
+    <form method="post" action="http://www.deitel.com" >
+
+        <!--Name Text field-->
+        <lable>Name:</lable> 
+        <input type="text" name="sname" placeholder="Jhon"> <br><br>
+
+        <!--Email Text field-->
+        <lable>E-mail:</lable> 
+        <input type="email" name="semail" placeholder="Jhon.Doe@domain.com"> <br><br>
+
+        <!--Checkboxes for things the students liked-->
+        <lable>What do you liked most about the campus?</lable> <br>
+        <input type="checkbox" name="sLiked" value="Campus"> Campus <br>
+        <input type="checkbox" name="sLiked" value="Students"> Students <br>
+        <input type="checkbox" name="sLiked" value="Location"> Location <br>
+        <input type="checkbox" name="sLiked" value="Atmosphere"> Atmosphere <br>
+        <input type="checkbox" name="sLiked" value="DormRooms"> Dorm Rooms <br>
+        <input type="checkbox" name="sLiked" value="Sports"> Sports <br><br>
+
+        <!--Raido buttons for things the students thought was intersting-->
+        <label>How did you become interested in this particular college?</label> <br>
+        <input type="radio" name="sInterested" value="friends"> Friends <br>
+        <input type="radio" name="sInterested" value="TV"> Television <br> 
+        <input type="radio" name="sInterested" value="Internet"> Internet <br>  
+        <input type="radio" name="sInterested" value="Other"> Other <br><br>
+
+        <!--Text area for additional comments-->
+        <textarea name="Feedback" id="" cols="50" rows="5" placeholder="Write additional comments..."></textarea> <br>
+
+        <!--Submit and rest elements-->
+        <input type="submit" value="submit">
+        <input type="reset" value="rest">
+
+    </form>
+</body>
+</html>
