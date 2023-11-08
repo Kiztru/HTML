@@ -1,0 +1,127 @@
+div{
+    border: 1px dotted
+
+}
+a:link {
+    color: #000000;
+}
+
+a:visited{
+    color: #fffbfb;
+    background-color: rgb(39, 42, 238)
+}
+
+a:hover{
+    color: rgb(143, 143, 252);
+}
+
+a:active{
+    color: red;
+}
+
+ul{
+    background-color: #28bf17;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float:left
+}
+
+li a{
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+li a:hover {
+    background-color: dd9ede;
+    color: black;
+}
+.active-link {
+    background-color: #f53319;
+}
+
+ul{
+    background-color: #17a6bf;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float:left
+}
+
+li a{
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+li a:hover {
+ background-color: dd9ede;
+    color: black;
+}
+.active-link {
+    background-color: #047591;
+}
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse; width: 100%;
+}
+
+td, th{
+
+    border: 1px solid #ddd; padding: 8px;
+
+}
+
+body{ 
+    margin: 0.25in;
+    background-color: lightgray;
+    background-image: url("A:\HTML\CSS\Pictures\CSS.png");
+    background-repeat: no-repeat; /*Remove no-repate*/
+    background-position: 100px 200px; /* position for the image x and y */
+    font-family: arial,Verdana;
+}
+
+h1,h3,h4{
+    background-color: darkslategray;
+    opacity: 0.7;
+    text-align: center;
+    color:#c0bcbc
+}
+
+p b{
+    
+    color: darkslateblue
+}
+
+p i{
+    color: darkslateblue;
+}
+
+.student{
+    font-size: 1.5em;
+    color: black;
+}
+
+#id1{
+    font-family: 'Courier New';
+    font-size: 18px;
+}
+
+
+
+
+

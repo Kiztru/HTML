@@ -1,0 +1,73 @@
+body 
+{
+    width: 70%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    align-content: center;
+}
+
+h1
+{
+    border-style: solid;
+    border-width: thick;
+    border-color: rgb(186, 239, 243); /* we also can use rgb() and hex*/
+    background-color: rgb(120, 202, 171);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+h4
+{
+    border-style: solid;
+    border-width: 2px 2px 4px 4px;
+    border-color: teal;
+    text-align: center;
+    padding: 5px;
+}
+
+h6
+{
+    background-color: rgb(132, 230, 119);
+    padding: 10px;
+}
+
+nav li
+{
+    display: inline;
+    margin: 2vw;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:link
+{
+    color:rgb(6, 12, 10)
+}
+
+a:visited
+{
+    color: teal;
+}
+
+a:hover
+{
+    background-color: teal;
+    color:rgb(220, 255, 196)
+}
+
+
+/* nav is used for a tag of the nav and used specifically for menus */
+nav ul  
+{
+    list-style: none;
+}
+
+ul
+{
+    list-style-image: url(Pictures/circle.PNG)
+}
+

@@ -1,0 +1,67 @@
+table,
+td,
+th,
+tr {
+        padding: 5px 10px 5px 10px;
+        text-align: center;
+}
+
+th{
+    text-transform: uppercase;
+    background-color: darkslategray;
+    color:floralwhite
+}
+
+.odd{
+    background-color: floralwhite;
+}
+
+tr:hover{
+    background-color: darkslategray;
+    color: floralwhite;
+    font-size: larger;
+    font-style: italic;
+}
+
+
+input{
+    margin: 10px;
+    padding: 5px;
+}
+
+input[type = text], input[type = email] {
+    width: 250px;
+    background-color: gainsboro;
+        border-radius: 5px;
+}
+
+input[type = submit]{
+    border: none;
+    width: 100px;
+    background-color: lightslategray;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+input[type = submit]:hover {
+    background-color: rgb(43, 42, 42);
+    color: floralwhite;
+    font-style: bold;
+}
+
+input:focus{
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
